@@ -1,5 +1,5 @@
 
-image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/images/bear-head.png[]
+image::https://raw.githubusercontent.com/beeonlune/electronics-courses/tree/main/modules/ROOT/images/bear-head.png[]
 
 == Суть проекта
 
