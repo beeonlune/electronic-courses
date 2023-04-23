@@ -1,1 +1,1 @@
-https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/pages/index.adoc
+* xref:index.adoc[]
