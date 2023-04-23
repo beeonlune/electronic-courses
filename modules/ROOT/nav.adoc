@@ -1,1 +1,1 @@
-* xref:https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modules/ROOT/pages/index.adoc[]
+* xref:https://github.com/beeonlune/electronics-courses/main/modules/ROOT/pages/index.adoc[]
