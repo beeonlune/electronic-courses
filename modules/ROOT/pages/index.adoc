@@ -17,7 +17,7 @@ image::https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modu
 
 В https://www.tinkercad.com/[Tinkercad] собираем схему на виртуальной макетной плате и проверяем ее на работоспособность: 
 
-image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/images/virtual-scheme.png[]
+image::https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modules/ROOT/images/virtual-scheme.png[]
 
 == 2. Натуральное моделирование
 
@@ -30,23 +30,23 @@ image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/i
 - красный и зеленый светодиоды;
 - батарейный отсек с батарейками.
 
-image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/images/real-scheme.png[]
+image::https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modules/ROOT/images/real-scheme.png[]
 
 == 3. Конструирование электрической принципиальной схемы
 
 С помощью программы https://easyeda.com/[EasyEDA] (STD Edition) создадим схему нашего устройства с учетом особенностей используемых элементов: 
 
-image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/images/easyeda-almost-ready.png[]
+image::https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modules/ROOT/images/easyeda-almost-ready.png[]
 
 Затем преобразуем схему в печатную плату нужного размера и распределим элементы таким образом, чтобы пересечений было как можно меньше (так же элементы будут располагаться и на итоговой готовой плате):
 
-image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/images/easyeda-ready.png[]
+image::https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modules/ROOT/images/easyeda-ready.png[]
 
 == 4. Подготовка производства
 
 Из https://easyeda.com/[EasyEDA] экспортируем производственные файлы (Gerber и Excellon) для разработанной платы, которые затем будем обрабатывать в http://flatcam.org/[FlatCam]: целью является генерация G-кода для обработки печатной платы -- дорожек и отверстий -- фрезерным станком Charly4U. В результате получим нечто подобное:
 
-image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/images/flatcam_scheme.png[]
+image::https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modules/ROOT/images/flatcam_scheme.png[]
 
 == 5. Изготовление печатной платы
 
@@ -60,6 +60,6 @@ image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/i
 
 Теперь можно припаять все элементы на свои места и приклеить батарейку. Получим рабочее устройство!
 
-image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/images/result.png[]
+image::https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modules/ROOT/images/result.png[]
 
-image::https://github.com/beeonlune/electronics-courses/tree/main/modules/ROOT/images/light.png[]
+image::https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modules/ROOT/images/light.png[]
