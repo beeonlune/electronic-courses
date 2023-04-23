@@ -1,1 +1,1 @@
-* xref:index.adoc[]
+* xref:https://raw.githubusercontent.com/beeonlune/electronics-courses/main/modules/ROOT/pages/endex.adoc[]
